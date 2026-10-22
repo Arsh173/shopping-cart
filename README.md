@@ -1,16 +1,165 @@
-# React + Vite
+# 🛒 Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive **Shopping Cart** application built using **React**, **Redux Toolkit**, **Tailwind CSS**, and **Fake Store API**. Users can browse products, add or remove items from the cart, view the total amount, and enjoy a clean, responsive shopping experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 **Live Website:** https://shopping-cart-psi-rosy.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 📂 GitHub Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+🔗 **Repository:** https://github.com/Arsh173/shopping-cart
+
+---
+
+## ✨ Features
+
+- 🛍️ Browse products from the Fake Store API
+- ➕ Add products to the shopping cart
+- ➖ Remove products from the shopping cart
+- 🛒 Dynamic cart item counter in the navbar
+- 💰 Automatic total price calculation
+- 🔔 Toast notifications for cart actions
+- ⚡ Fast and responsive user interface
+- 📱 Mobile-friendly design
+- 🔄 Global state management using Redux Toolkit
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Redux Toolkit
+- React Router DOM
+- Tailwind CSS
+- Vite
+- Fake Store API
+- React Hot Toast
+- React Icons
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](./screenshots/home.png)
+
+---
+
+### 🛍️ Products Grid
+
+![Products Grid](./screenshots/products.png)
+
+---
+
+### 🛒 Shopping Cart
+
+![Shopping Cart](./screenshots/cart.png)
+
+---
+
+### 📦 Empty Cart
+
+![Empty Cart](./screenshots/empty-cart.png)
+
+---
+
+## 📁 Project Structure
+
+```text
+shopping-cart
+│── public
+│── screenshots
+│   ├── home.png
+│   ├── products.png
+│   ├── cart.png
+│   └── empty-cart.png
+│── src
+│   ├── components
+│   ├── pages
+│   ├── redux
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│── package.json
+│── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Arsh173/shopping-cart.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd shopping-cart
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained hands-on experience with:
+
+- Building reusable React components
+- React Hooks (`useState`, `useEffect`)
+- React Router for navigation
+- Redux Toolkit for global state management
+- Fetch API for data fetching
+- Tailwind CSS for responsive UI design
+- Managing application state efficiently
+- Component-based architecture
+- Git & GitHub workflow
+- Deploying React applications with Vercel
+
+---
+
+## 🔮 Future Improvements
+
+- 🔍 Product Search
+- 🏷️ Product Categories
+- 🎛️ Product Filtering
+- ❤️ Wishlist Feature
+- ➕ Product Quantity Management
+- 🌙 Dark Mode
+- 💳 Checkout Process
+- 🔐 User Authentication
+
+---
+
+## 👨‍💻 Author
+
+**Arsh**
+
+- **GitHub:** https://github.com/Arsh173
+- **LinkedIn:** https://www.linkedin.com/in/arsh0786/
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
